@@ -50,9 +50,9 @@ def run():
           )
     print("Running...")
     [b, w] = gradient_descent_runner(points, initial_b, initial_w, learning_rate, num_iterations)
-    print("After {0} iterations b = {1}, m = {2}, error = {3}".
-          format(num_iterations, b, w,
-                 compute_error_for_lin_given_points(b, w, points))
+    print("After {0} iterations b = {1}, m = {2}, error = {3}"
+          .format(num_iterations, b, w,
+                  compute_error_for_lin_given_points(b, w, points))
           )
 
 
