@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d210ec79-0fb4-4aa3-841e-a5e81db062ea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/02-mnist/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-mnist/mnist_train.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-mnist/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/pytorch-learning-note.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pytorch-learning-note.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-pytorch-basic/01-basic-data-type.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-regression/03_Simple_Regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/01-regression/03_Simple_Regression.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,13 +13,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/02-mnist/mnist_train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="604">
-              <caret line="86" column="14" selection-start-line="86" selection-start-column="14" selection-end-line="86" selection-end-column="14" />
+            <state relative-caret-position="363">
+              <caret line="86" column="48" lean-forward="true" selection-start-line="86" selection-start-column="48" selection-end-line="86" selection-end-column="48" />
               <folding>
                 <element signature="e#96#108#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/03-pytorch-basic/01-basic-data-type.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="466">
+              <caret line="27" column="39" lean-forward="true" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+              <folding>
+                <element signature="e#226#238#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -62,6 +70,7 @@
         <option value="$PROJECT_DIR$/02-mnist/utils.py" />
         <option value="$PROJECT_DIR$/02-mnist/__init__.py" />
         <option value="$PROJECT_DIR$/02-mnist/mnist_train.py" />
+        <option value="$PROJECT_DIR$/03-pytorch-basic/01-basic-data-type.py" />
       </list>
     </option>
   </component>
@@ -89,7 +98,7 @@
             <path>
               <item name="pytorch-learning-note" type="b2602c69:ProjectViewProjectNode" />
               <item name="pytorch-learning-note" type="462c0819:PsiDirectoryNode" />
-              <item name="02-mnist" type="462c0819:PsiDirectoryNode" />
+              <item name="03-pytorch-basic" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -212,17 +221,18 @@
       <updated>1565080722459</updated>
       <workItem from="1565080725683" duration="113000" />
       <workItem from="1565080904239" duration="3142000" />
-      <workItem from="1565146827339" duration="7959000" />
+      <workItem from="1565146827339" duration="10204000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11214000" />
+    <option name="totallyTimeSpent" value="13459000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1680" y="-171" width="1874" height="1417" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20633188" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20633188" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -241,7 +251,7 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" id="SciView" order="3" visible="true" weight="0.32969433" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32969433" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
@@ -317,10 +327,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/02-mnist/mnist_train.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="604">
-          <caret line="86" column="14" selection-start-line="86" selection-start-column="14" selection-end-line="86" selection-end-column="14" />
+        <state relative-caret-position="363">
+          <caret line="86" column="48" lean-forward="true" selection-start-line="86" selection-start-column="48" selection-end-line="86" selection-end-column="48" />
           <folding>
             <element signature="e#96#108#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-pytorch-basic/01-basic-data-type.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="27" column="39" lean-forward="true" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+          <folding>
+            <element signature="e#226#238#0" expanded="true" />
           </folding>
         </state>
       </provider>
